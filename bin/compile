@@ -11,7 +11,7 @@ BUILDPACK_DIR="$(dirname $(dirname $0))"
 CURRDIR=$PWD
 
 wget -P /tmp https://github.com/asciidoc/asciidoc/archive/8.6.9.tar.gz
-tar xvf /tmp/asciidoc-8.6.9.tar.gz -C $BUILD_DIR
+tar xvf /tmp/8.6.9.tar.gz -C $BUILD_DIR
 
 cd $BUILD_DIR/asciidoc-8.6.9
 ./configure
